@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/netflixbackground.jpg);
+}
+.Black-Background{
+    display: flex;
+    justify-content:center;
+    margin-top: 1%;
+  }
+.box{
+    width: 1700px;
+    height: 955px;
+    background-color: rgba(0, 0, 0,0.4);
+}
+.box h1,span{
+    color: white;
+    opacity:0.9;
+    text-align: center;
+    font-family: "Bowlby One SC", cursive;
+    font-size: 50px;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+.box span{
+    color: #ff0000;
+}
+.box p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Sorts Mill Goudy", serif;
+    margin-top: -30px;
+}
+.Information{
+    background-color: rgba(0, 0, 0,0.7);
+    width: 500px;
+    height: 798px;
+    margin-left: 600px;
+}
+label{
+    color: white;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+select{
+    margin-left: 25px;
+    height: 54px;
+    width: 418px;
+}
+input{
+    margin-left: 25px;
+}
+.checkbox label{
+    display:inline;
+}
+.Information input[type="text"],input[type="number"],input[type="email"]{
+    height: 36px;
+    width: 400px;
+}
+textarea{
+    margin-left: 25px;
+}
+button{
+    margin-left: 160px;
+    margin-top: 4px;
+    height: 45px;
+    width: 160px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    font-size: larger;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: red;
+}
