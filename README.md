@@ -1,1 +1,1 @@
-# Netflix_Template
+https://mehmetgkcy.github.io/Netflix_Template/
